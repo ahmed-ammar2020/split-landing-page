@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100vh;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.layer-ps5 {
+  background-color: rgba(52, 152, 219, 0.6);
+}
+
+.layer-xbox {
+  background-color: rgba(44, 62, 80, 0.6);
+}
+
+.ps5,
+.xbox {
+  width: 50%;
+  transition: 1s;
+}
+
+.expand {
+  width: 75%;
+}
+
+.shrink {
+  width: 25%;
+}
+
+.ps5 {
+  background-image: url("https://picsum.photos/1000/1200?random=1");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.xbox {
+  background-image: url("https://picsum.photos/1000/1200?random=2");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.layer h2 {
+  color: #fff;
+}
+
+button {
+  width: 200px;
+}
